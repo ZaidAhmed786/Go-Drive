@@ -1,0 +1,296 @@
+.main{
+    background-image: url(./images/parallax-01.jpg);
+    background-size: cover;
+    background-image: fixed;
+    /* position: fixed; */
+    background-position: center;
+    
+
+    background-repeat: no-repeat;
+}
+.h-10{
+    font-size: 66px;
+}
+.h-1{
+    font-size: 66px;
+}
+.h-2{
+    font-size: 45px;
+}
+.h{
+    font-size: 45px;
+    width: 60%;
+}
+.h-3{
+    font-size: 55px;
+}
+.link{
+    background-color: black;
+    color: white;
+}
+.link:hover{
+    background-color: rgb(211, 204, 195);
+    color: black;
+}
+.link1{
+    background-color: white;
+    color: black;
+}
+.link1:hover{
+    background-color: rgb(156, 153, 150);
+    color: white;
+}
+.p10{
+    font-size: 18px;
+    width: 75%;
+}
+.p1{
+    font-size: 18px;
+}
+.p2{
+    font-size: 15px;
+}
+.p3{
+    font: size 14px; ;
+}
+.p4{
+    font-size: 13px;
+}
+.sec-card{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.card-1{
+    width: 23%;
+     border: 1px solid rgb(197, 192, 192);
+}
+.ul-1 {
+    color: grey;
+    font-size: 14px;
+    border-top: 1px solid rgb(150, 147, 147);
+}
+.main1{
+    background-image: url(./images/parallax-02-1920x1080.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.sec-card-2{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.card-3{
+    width: 48%;
+}
+.card-2{
+    width: 100%;
+    border-radius: 10px;
+     border: 1px solid rgb(197, 192, 192);
+}
+.clint{
+    width: 80px;
+    border-radius: 100%;
+}
+
+@media screen and (max-width: 1200px) {
+    .main{
+        background-image: url(./images/parallax-01.jpg);
+        background-size: cover;
+        background-image: fixed;
+        /* position: fixed; */
+        background-position: center;
+        
+    
+        background-repeat: no-repeat;
+    }
+    .h-1{
+        font-size: 66px;
+    }
+    .h-2{
+        font-size: 45px;
+    }
+    .h{
+        font-size: 45px;
+        width: 60%;
+    }
+    .h-3{
+        font-size: 55px;
+    }
+    .link{
+        background-color: black;
+        color: white;
+    }
+    .link:hover{
+        background-color: rgb(211, 204, 195);
+        color: black;
+    }
+    .link1{
+        background-color: white;
+        color: black;
+    }
+    .link1:hover{
+        background-color: rgb(156, 153, 150);
+        color: white;
+    }
+    .p1{
+        font-size: 18px;
+    }
+    .p2{
+        font-size: 15px;
+    }
+    .p3{
+        font: size 14px; ;
+    }
+    .p4{
+        font-size: 13px;
+    }
+    .sec-card{
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .card-1{
+        width: 30%;
+         border: 1px solid rgb(197, 192, 192);
+    }
+    .ul-1 {
+        color: grey;
+        font-size: 14px;
+        border-top: 1px solid rgb(150, 147, 147);
+    }
+    .main1{
+        background-image: url(./images/parallax-02-1920x1080.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    
+    }
+    .sec-card-2{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .card-3{
+        width: 48%;
+    }
+    .card-2{
+        width: 100%;
+        border-radius: 10px;
+         border: 1px solid rgb(197, 192, 192);
+    }
+    .clint{
+        width: 80px;
+        border-radius: 100%;
+    }
+    
+   
+}
+
+@media screen and (max-width: 992px) {
+    .sec-card{
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .card-1{
+        width: 45%;
+         border: 1px solid rgb(197, 192, 192);
+    }
+    .sec-card-2{
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .card-3{
+        width: 100%;
+    }
+    .card-2{
+        width: 100%;
+        border-radius: 10px;
+         border: 1px solid rgb(197, 192, 192);
+    }
+    .clint{
+        width: 80px;
+        border-radius: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .main{
+        background-image: url(./images/parallax-01.jpg);
+        background-size: cover;
+        object-fit: cover;
+        
+        background-image: fixed;
+        /* position: fixed; */
+        background-position: center;
+        
+    
+        background-repeat: no-repeat;
+    }
+    .p10{
+        font-size: 18px;
+        width: 100%;
+    }
+    .h-1{
+        font-size: 50px;
+    }
+    .h-2{
+        font-size: 35px;
+    }
+    .h{
+        font-size: 45px;
+        width: 60%;
+    }
+    .h-3{
+        font-size: 40px;
+    }
+    .h-10{
+        font-size:40px;
+    }
+    .sec-card{
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .card-1{
+        width: 48%;
+         border: 1px solid rgb(197, 192, 192);
+    }
+}
+
+@media screen and (max-width: 574px) {
+    .h-10{
+        font-size:30px;
+    }
+    .sec-card{
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .p10{
+        font-size: 18px;
+        width: 100%;
+    }
+    .h-1{
+        font-size: 50px;
+    }
+    .h-2{
+        font-size: 35px;
+    }
+    .h{
+        font-size: 45px;
+        width: 60%;
+    }
+    .h-3{
+        font-size: 30px;
+    }
+    .h-10{
+        font-size:40px;
+    }
+    .card-1{
+        width: 100%;
+         border: 1px solid rgb(197, 192, 192);
+    }
+}
